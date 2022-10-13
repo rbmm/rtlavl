@@ -139,6 +139,10 @@ HRESULT CALLBACK DebugExtensionInitialize(PULONG Version, PULONG Flags)
 		{
 			CloseHandle(hThread);
 		}
+		else
+		{
+			FreeLibrary(hmod);
+		}
 	}
 
 	*Version = DEBUG_EXTENSION_VERSION(1, 0);
