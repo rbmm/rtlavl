@@ -1,6 +1,6 @@
 # rtlavl
 
-ksupnd.dll is DbgEng Extension DLL
+avlex.dll is DbgEng Extension DLL
 put it in Debuggers\x64\winext\ 
 
 use .load avlex and .unload avlex inside windbg
